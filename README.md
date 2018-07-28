@@ -79,7 +79,7 @@ npm install ng-packagr -save-dev
 #### `package.json`
 ```json
 {
-  "name": "@zhang/component",
+  "name": "@zhang/component",  //这个就是最后的名字
   "version": "1.0.1",
   "peerDependencies": {
     "@angular/common": "^6.0.0-rc.0 || ^6.0.0",
@@ -320,3 +320,13 @@ export class RoutesModule {
 
 ```
 其他就按照angular的方式该怎么写怎么写行了
+
+### 其他项目使用
+发布好了就可以
+```
+npm install '@zhang/component'
+```
+本地可以直接，我这是windows,具体根据自己的目录来
+```
+npm install 'D:\Code\demo\my-component\dist'
+```
